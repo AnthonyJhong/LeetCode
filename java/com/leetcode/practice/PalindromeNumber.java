@@ -9,7 +9,6 @@ public class PalindromeNumber {
         System.out.println(isPalindromeNoString(111234321));
         System.out.println(isPalindromeNoString(1112343211));
     }
-
     public static boolean isPalindrome(int x){
         if(x < 0)
             return false;
@@ -32,7 +31,6 @@ public class PalindromeNumber {
             newInt = newInt*10 + changingInput%10;
             changingInput/=10;
         }
-
         return newInt == x;
     }
 }
