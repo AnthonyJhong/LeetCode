@@ -2,6 +2,7 @@ package com.leetcode.practice;
 
 import java.lang.Math;
 
+//https://leetcode.com/problems/contains-duplicate-iii/submissions/
 public class ContainsDuplicate3 {
     public static void main(String [] args){
         //System.out.println(containsNearbyAlmostDuplicate(new int [] {}, 0, 0));
