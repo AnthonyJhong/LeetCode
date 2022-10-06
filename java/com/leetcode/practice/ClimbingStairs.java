@@ -14,18 +14,16 @@ public class ClimbingStairs {
     public static int fib(int n){
         if(n <= 1)
             return 1;
-
         return fib(n-1) + fib(n-2);
     }
-
     public static int climbingStairsDP(int n){
-        int current = 1;
+        int current = 1; //1,2,3,5,8
         int prev = 1;
         int temp;
-        for(int i = 1; i < n; i++){
+        for(int i = 2; i <= n; i++){
             temp = current;
-            current =current+prev;
-            prev = temp;
+            current = current+prev; //now 3
+            prev = temp; // prev = 2
 
         }
         return current;
